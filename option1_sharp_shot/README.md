@@ -1,4 +1,4 @@
-# Option 1 – Sharp Shot (Best Frame Selection)
+# Option 1 – Sharp Shot
 
 This task focuses on analyzing a video and selecting the **top 5 sharpest frames** using classical Computer Vision techniques with OpenCV.
 
