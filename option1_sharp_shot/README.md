@@ -48,7 +48,15 @@ This prevents selecting multiple sharp frames from the exact same moment.
 The final output consists of:
 
 - A CSV file containing sharpness scores for all frames.
-- A folder containing the **top 5 sharpest frames**:
+- A folder containing the **top 5 sharpest frames**
+  
+Frames are saved in **JPG format** to reduce file size while preserving sufficient visual quality.
+
+-------------
+## How to Run
+
+```bash
+python blurred_video.py
 
 
 
