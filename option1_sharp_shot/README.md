@@ -39,5 +39,16 @@ To ensure temporal diversity, the solution enforces a **minimum one-second gap**
 
 If the video has `FPS` frames per second, two frames are only accepted if: `|frame_index₁ − frame_index₂| ≥ FPS`
 
+This prevents selecting multiple sharp frames from the exact same moment.
+
+---
+
+## Output
+
+The final output consists of:
+
+- A CSV file containing sharpness scores for all frames.
+- A folder containing the **top 5 sharpest frames**:
+
 
 
