@@ -19,13 +19,13 @@ Instead of feeding the entire 4K image into the detector at once, the image is d
 
 ## Pipeline Overview
 
-1- High-Resolution Image (4K)
-2- Image Tiling / Slicing
-3- Object Detection on Each Tile
-4- Map Detections to Original Image
-5- Merge Results
-6- Non-Maximum Suppression
-7- Final Detections
+- High-Resolution Image (4K)
+- Image Tiling / Slicing
+- Object Detection on Each Tile
+- Map Detections to Original Image
+- Merge Results
+- Non-Maximum Suppression
+- Final Detections
 
 
 ---
