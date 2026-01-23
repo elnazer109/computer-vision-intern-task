@@ -3,7 +3,7 @@ the task is about detecting tiny metal **screws** (10x10) pixels from **high res
 fail because they resize images to smaller dimensions(e.g. 640x640) which causes small objects to lose critical visual information or disappear completely.
 traditional detection pipelines often fail to detect tiny objects reliably.
 
-# Proposed solution (Tiling / SAHI)
+# Proposed solution : SAHI
 To address these challenges, a **tiling (slicing)** strategy is used.
 
 Instead of feeding the entire 4K image into the detector at once, the image is divided into smaller overlapping tiles.
@@ -12,7 +12,7 @@ Each tile is processed independently using a standard object detection model.
 
 ### Pipeline Overview
 `
-High-Resolution Image (4K)
+High-Resolution Image (4K)\n
 ↓
 Image Tiling / Slicing
 ↓
